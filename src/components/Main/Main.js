@@ -26,9 +26,9 @@ function Main() {
         <Dropdown.Divider />
 
         <Grid container spacing={1} className="grid-item-1">
-          <Grid item xs={6} container>
+          <Grid item xs={5} container>
             <Card.Body>
-              <FormControl style={{ minWidth: 300 }}>
+              <FormControl style={{ minWidth: 250 }}>
                 <InputLabel>Nome</InputLabel>
                 <Select
                   labelId="demo-simple-select-autowidth-label"
@@ -52,9 +52,9 @@ function Main() {
               <Card.Text className="card-name">Lazio</Card.Text>
             </Card.Body>
           </Grid>
-          <Grid container item xs={6}>
+          <Grid container item xs={7}>
             <Card.Body>
-              <FormControl style={{ minWidth: 250 }}>
+              <FormControl style={{ minWidth: 320 }}>
                 <InputLabel>Description</InputLabel>
                 <Select
                   labelId="demo-simple-select-autowidth-label"
@@ -65,17 +65,17 @@ function Main() {
                   <MenuItem value={3}>Nome 3</MenuItem>
                 </Select>
               </FormControl>
-              <Card.Text className="card-name">Barcelona</Card.Text>
+              <Card.Text className="card-name">Barcelona squad</Card.Text>
               <Dropdown.Divider />
-              <Card.Text className="card-name">Real Madrid</Card.Text>
+              <Card.Text className="card-name">Real Madrid squad</Card.Text>
               <Dropdown.Divider />
-              <Card.Text className="card-name">Milan</Card.Text>
+              <Card.Text className="card-name">Milan squad</Card.Text>
               <Dropdown.Divider />
-              <Card.Text className="card-name">Liverpool</Card.Text>
+              <Card.Text className="card-name">Liverpool squad</Card.Text>
               <Dropdown.Divider />
-              <Card.Text className="card-name">Bayern Munich</Card.Text>
+              <Card.Text className="card-name">Bayern Munich squad</Card.Text>
               <Dropdown.Divider />
-              <Card.Text className="card-name">Lazio</Card.Text>
+              <Card.Text className="card-name">Lazio squad</Card.Text>
             </Card.Body>
           </Grid>
         </Grid>

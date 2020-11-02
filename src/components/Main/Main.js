@@ -18,7 +18,18 @@ function Main() {
           </Card.Title>
         </Card.Body>
         <Dropdown.Divider />
+
         <Card.Body>
+          <Dropdown>
+            <Dropdown.Toggle variant="light">Dropdown Button</Dropdown.Toggle>
+
+            <Dropdown.Menu>
+              <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+              <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+              <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
+
           <Card.Text className="card-name">
             Some quick example text to build on the card title and make up the
             bulk of the card's content.

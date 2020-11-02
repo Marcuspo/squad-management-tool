@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
 .card-main {
   width: 504px;
   width: 607px;
@@ -16,10 +18,15 @@
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
+  margin-top: 15px;
+  margin-left: 15px;
 
   color: #8656a4;
 }
 
 .button-card {
-  background: linear-gradient(90deg, #ce4969 100%, #74518f 100%);
+  text-align: center;
+  line-height: 1.42857;
+  border-radius: 15px;
+  background: linear-gradient(#ce4969 0%, #74518f 90%);
 }

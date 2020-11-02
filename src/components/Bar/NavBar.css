@@ -28,3 +28,13 @@
 
   color: #ffffff;
 }
+
+.account-icon {
+  width: 24px;
+  height: 24px;
+  size: 1em;
+  margin-left: 10px;
+  border-radius: 19px;
+
+  background-color: #ffffff;
+}

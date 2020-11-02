@@ -1,0 +1,44 @@
+.card-main-top5 {
+  left: 50px;
+  top: 93px;
+
+  background-color: #ffffff;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+}
+
+.card-title-top5 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 15px;
+  margin-left: 15px;
+
+  color: #8656a4;
+}
+
+.name-card-top5 {
+  margin-left: 25px;
+  padding-top: 25px;
+
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 16px;
+
+  color: #777777;
+}
+
+.lista-left-group {
+  width: 250px;
+  height: 260px;
+  align-items: initial;
+  flex-direction: column;
+
+  border: 8px solid;
+  border-color: #e6e6e6;
+  border-radius: 8px;
+}

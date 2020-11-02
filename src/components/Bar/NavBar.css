@@ -1,0 +1,25 @@
+.navbar {
+  position: relative;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(90deg, #ce4969 0%, #74518f 100%);
+}
+
+.name-squad {
+  width: 201px;
+  left: 102px;
+
+  font: Roboto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21, 09px;
+  color: #ffffff;
+}
+
+.name-fim {
+  font-family: Roboto;
+  font-style: normal;
+}
